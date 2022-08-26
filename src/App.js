@@ -9,13 +9,13 @@ function App() {
   return (
     <div className="App">
       <div className='background'>
-        {/* <Container /> */}
         <Navbar />
+        
         <div className='content-container'>
           <ProfilePic />
-          {/* <Bio />
+          <Bio />         
           <Video />
-          <Footer /> */}
+          <Footer />
         </div>        
       </div>
     </div>

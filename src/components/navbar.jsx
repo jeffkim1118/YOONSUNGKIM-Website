@@ -1,7 +1,7 @@
 import React from "react"
 function navbar(){
     return(
-        <div>
+        <div className="navbar-container">
             <nav className="navbar navbar-dark bg-dark">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#"><strong>YOONSUNG KIM</strong></a>

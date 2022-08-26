@@ -13,12 +13,28 @@
 
 .content-container{
     text-align: center;
-    background-color: black;
+    background-color: rgb(131, 131, 131);
     width: 50%;
     margin: auto;
     margin-top: 10%;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.image-container{
+    width: 100%;
+    text-align: center;
 }
 
 .profilePic{
     border-radius: 100px;
+    box-shadow: 5px 10px 8px #0f0f0f;
+    z-index: 1;
+}
+
+.bio-container{
+    margin: auto;
+    width: 50%;
+    height: 500px;
+    background-color: aqua;
+    margin-top: 2%;
 }
