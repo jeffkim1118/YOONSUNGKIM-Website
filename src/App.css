@@ -1,6 +1,4 @@
-*{
-    font-family: 'Tiro Devanagari Sanskrit', serif;
-}
+*{}
 
 .navbar-brand{
     font-size: 25px;
@@ -13,11 +11,17 @@
 
 .content-container{
     text-align: center;
-    background-color: rgb(131, 131, 131);
-    width: 50%;
+    /* background-color: rgb(131, 131, 131); */
+    width: 30%;
     margin: auto;
     margin-top: 10%;
-    box-shadow: 5px 10px 8px #888888;
+    /* box-shadow: 5px 10px 8px #888888; */
+    animation: fadein 2s;
+}
+
+
+.intro-container{
+    height: 230px;
 }
 
 .image-container{
@@ -26,15 +30,53 @@
 }
 
 .profilePic{
+    margin-top: 20px;
     border-radius: 100px;
     box-shadow: 5px 10px 8px #0f0f0f;
     z-index: 1;
 }
 
-.bio-container{
+.greet{
+    font-size: 20px;
+    margin-top: 20px;
+} 
+
+.intro{
     margin: auto;
-    width: 50%;
-    height: 500px;
-    background-color: aqua;
     margin-top: 2%;
+    margin-bottom: 2%;
+    width: 60%;
+    height: fit-content;
+    background-color: rgb(180, 199, 199);
+    border-radius: 10px;
+}
+.content{
+    font-size: 18px;
+    margin: 10px;
+}
+
+.footer{
+    background-color: #c52525;
+}
+
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+  
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 300px;
+    width: 500px;
+    position: absolute;
+}
+  
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
