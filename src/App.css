@@ -72,9 +72,13 @@
     top: 0;
     height: 300px;
     width: 500px;
-    position: absolute;
+    margin: 20px;
 }
   
+.demoVideos{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 @keyframes fadein {
     from { opacity: 0; }
