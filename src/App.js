@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/navbar';
-import Bio from './components/intro';
+import Intro from './components/intro';
 import ProfilePic from './components/profilePic';
 import Video from './components/videos';
 import Footer from './components/footer';
@@ -12,7 +12,7 @@ function App() {
         <Navbar />
         <div className='content-container'>
           <ProfilePic />
-          <Bio />         
+          <Intro />         
         </div>
         <Video />  
         <Footer />      
