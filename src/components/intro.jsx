@@ -13,9 +13,9 @@ function Intro(){
             </div>
 
             <div className="links">
-                <a href="https://github.com/jeffkim1118" className="githubLink" id="linkURL">Github</a>
-                <a href="https://www.linkedin.com/in/yoonsung-kim-639b30178/" className="linkedinLink" id="linkURL">Linkedin</a>
-                <a href="https://medium.com/@1019yskim" className="mediumLink" id="linkURL">Medium Blog</a>
+                <a href="https://github.com/jeffkim1118" rel="noreferrer" target="_blank" className="githubLink" id="linkURL">Github</a>
+                <a href="https://www.linkedin.com/in/yoonsung-kim-639b30178/" rel="noreferrer" target="_blank" className="linkedinLink" id="linkURL">Linkedin</a>
+                <a href="https://medium.com/@1019yskim" rel="noreferrer" target="_blank" className="mediumLink" id="linkURL">Medium Blog</a>
             </div>
         </div>
     )
