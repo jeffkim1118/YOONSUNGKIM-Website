@@ -1,4 +1,7 @@
 import React from "react";
+import GithubLogo from "../images/githublogo.png";
+import LinkedinLogo from "../images/linkedinlogo.png";
+import MediumLogo from "../images/mediumlogo.png";
 
 function Intro(){
     return(
@@ -13,9 +16,15 @@ function Intro(){
             </div>
 
             <div className="links">
-                <a href="https://github.com/jeffkim1118" rel="noreferrer" target="_blank" className="githubLink" id="linkURL">Github</a>
-                <a href="https://www.linkedin.com/in/yoonsung-kim-639b30178/" rel="noreferrer" target="_blank" className="linkedinLink" id="linkURL">Linkedin</a>
-                <a href="https://medium.com/@1019yskim" rel="noreferrer" target="_blank" className="mediumLink" id="linkURL">Medium Blog</a>
+                <a href="https://github.com/jeffkim1118" rel="noreferrer" target="_blank" className="githubLink" id="linkURL">
+                    <img src={GithubLogo} alt="github-link" id="logo"/>
+                </a>
+                <a href="https://www.linkedin.com/in/yoonsung-kim-639b30178/" rel="noreferrer" target="_blank" className="linkedinLink" id="linkURL">
+                    <img src={LinkedinLogo} alt="linkedin-link" id="logo"/>
+                </a>
+                <a href="https://medium.com/@1019yskim" rel="noreferrer" target="_blank" className="mediumLink" id="linkURL">
+                    <img src={MediumLogo} alt="medium-blog-link" id="logo"/>
+                </a>
             </div>
         </div>
     )

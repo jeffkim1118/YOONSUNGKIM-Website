@@ -1,23 +1,21 @@
 import './App.css';
 import Navbar from './components/navbar';
-import Intro from './components/intro';
-import ProfilePic from './components/profilePic';
 import Video from './components/videos';
+import Resume from './components/resume';
 import Footer from './components/footer';
+import Home from './components/Home';
+import { Routes, Route} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <div className='background'>
-        <Navbar />
-        <div className='content-container'>
-          <ProfilePic />
-          <Intro />         
-        </div>
-        <Video />  
-        <Footer />      
-      </div>
-    </div>
+      <Navbar />
+      <Routes> 
+        <Route path="/" element={<Home />}/>
+        <Route path="/portfolio" element={<Video/>}/>
+        <Route path="/resume" element={<Resume />}/>
+      </Routes>
+    </div>       
   );
 }
 
