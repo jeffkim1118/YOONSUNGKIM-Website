@@ -23,7 +23,7 @@ function navbar(){
                                 <a className="nav-link" href="/resume">Resume</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/#">Contact</a>
+                                <a className="nav-link" href="/contact">Contact</a>
                             </li>
                         </ul>
                     </div>

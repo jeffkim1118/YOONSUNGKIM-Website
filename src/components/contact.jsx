@@ -7,16 +7,18 @@ function Contact(){
     function handleSubmit(e){
         e.preventDefault();
 
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+        emailjs.sendForm('service_qufbpuo', 'template_4y8qqhm', form.current, 'BYtwJwTOulJN4yq_L')
         .then((result) => {
             console.log(result.text);
+            e.target.reset();
+            console.log("message sent");
         }, (error) => {
           console.log(error.text);
         });
     }
 
     return(
-        <div>
+        <div className="email-form-container">
             <form ref={form} onSubmit={handleSubmit}>
                 <label>Name</label>
                 <input type="text" name="user_name" />
