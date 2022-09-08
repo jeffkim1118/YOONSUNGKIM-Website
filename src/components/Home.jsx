@@ -6,7 +6,7 @@ import ProfilePic from './profilePic';
 function Home() {
     return(
         <div className="content-container">
-            <h1>This website is currently under-construnction!</h1>
+            <h1>This website is currently under-construction!</h1>
             <ProfilePic />
             <Intro />
         </div>
