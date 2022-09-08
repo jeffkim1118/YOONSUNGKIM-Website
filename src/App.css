@@ -154,6 +154,22 @@
     width: 500px;
 }
 
+
+/* Contact Form */
+.email-form-container{
+    width: 100%;
+    text-align: center;
+}
+
+.contact-form{
+    margin: auto;
+    margin-bottom: 100px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+
 @keyframes fadein {
     from { opacity: 0; }
     to { opacity: 1; }

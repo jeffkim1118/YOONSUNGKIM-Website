@@ -28,8 +28,9 @@ function Contact(){
 
     return(
         <div className="email-form-container">
+            <h1>Contact Me</h1>
             {!status ? <Warning /> : null}
-            <form ref={form} onSubmit={handleSubmit}>
+            <form className="contact-form" ref={form} onSubmit={handleSubmit}>
                 <label>Name</label>
                 <input type="text" name="user_name" value={name} onChange={(e) => setName(e.target.value)}/>
                 <label>Email</label>
